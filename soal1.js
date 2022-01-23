@@ -13,7 +13,7 @@ console.log(numbers) //[5, 6, 7, 8]
 Unshift yaitu method javascript yang digunakan pada array untuk 
 menambahkan nilai pada elemen awal array. */
 var angka = [1, 2, 3, 4] // inisialisasi variabel
-angka.unshift() //mengeksekusi method unshift
+angka.unshift(0) //mengeksekusi method unshift
 console.log(angka) // [0, 1, 2, 3, 4] 
 
 /*
@@ -79,7 +79,7 @@ function functionEvery(value) { // inisialisasi fungsi callback
 console.log(data.every(functionEvery)) // false
 
 /*10 method some()
-method every adalah method javascript yang digunakan pada array
+method some adalah method javascript yang digunakan pada array
 untuk memeriksa beberapa nilai yang ada di dalam array sesuai dengan
 kondisi tertentu*/
 const number = [45, 4, 9, 16, 25]; // inisialisasi variabel

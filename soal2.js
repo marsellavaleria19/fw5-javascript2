@@ -10,7 +10,7 @@ function searchName(hurufDicari, jumlahOutput, callback) {
     var filterName = name.filter(function(data) {
         return data.toLowerCase().includes(hurufDicari)
     })
-    callback(3, filterName)
+    callback(jumlahOutput, filterName)
 }
 
 

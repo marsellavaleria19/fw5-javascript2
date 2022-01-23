@@ -11,10 +11,6 @@ function SeleksiNilai(nilaiAwal, nilaiAkhir, dataArray) {
         hasil.sort(function(a, b) { return a - b });
         console.log(hasil)
     }
-
-
-
-
 }
 
 
